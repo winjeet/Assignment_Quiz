@@ -1,0 +1,24 @@
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;               
+}
+.main{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.quiz-item{
+    border: 1px solid #000;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.item-left{
+    text-align: left;
+    padding-left: 1300px;
+}
+.quiz-form{
+    float: left;
+}  
