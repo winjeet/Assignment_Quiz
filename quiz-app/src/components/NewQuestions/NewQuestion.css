@@ -1,0 +1,30 @@
+.new-quiz button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    background-color: #3e3972;
+    color: white;
+    border-radius: 12px ;
+    margin-right: 1rem;
+  }
+  
+  .new-quiz button:hover,
+  .new-quiz button:active {
+    background-color: #510674;
+    border-color: #510674;
+  }
+  
+  .new-quiz button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-quiz button.alternative:hover,
+  .new-quiz button.alternative:active {
+    background-color: #ddb3f8;
+  }
+  .add-new-btn{
+    background-color:rgb(216, 210, 210);
+  }
