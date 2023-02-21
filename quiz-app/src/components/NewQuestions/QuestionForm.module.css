@@ -1,0 +1,56 @@
+.new_expense__controls {
+    gap: 2rem;
+    margin: 1rem ;
+    text-align: left;
+    padding-left: 3%;
+  }
+
+  
+  .option{
+    justify-content:space-between;
+  }
+  
+  .new_expense__control label {
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 20px;
+  }
+
+  .new_expense__control_category {
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+    display: block;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+  .quiz_checkbox{
+    border-radius: 6px;
+    padding: 7px;
+  }
+  
+  
+  .new_expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  .new_expense__actions {
+    text-align: right;
+    padding: 10px;
+  }
+
+  .new_expense {
+     background-color: #061625; 
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }

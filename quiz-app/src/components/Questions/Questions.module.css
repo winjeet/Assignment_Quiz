@@ -1,0 +1,26 @@
+.questions{
+    padding: 0.8rem;
+    background-color: rgb(18, 23, 23);
+    margin: 0.5rem auto;
+    width: 50rem;
+    max-width: 95%;
+    color: white;
+}
+
+.question_header{
+    display: flex;
+    margin-left: 3%;
+}
+
+.quiz_total{
+    text-align: left;
+}
+
+.quiz_timer{
+    margin-left: 60%; 
+}
+
+.quiz_submit{
+    margin-left: 80%;
+    font-size: 20px; 
+}

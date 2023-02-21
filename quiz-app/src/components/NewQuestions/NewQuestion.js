@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import QuestionForm from './QuestionForm';
-import './NewQuestion.css'
+import classes from './NewQuestion.module.css'
 
 const NewQuestion = (props) => {
     const [isEditing, setIsEditing] = useState(false);
@@ -21,9 +21,9 @@ const NewQuestion = (props) => {
         setIsEditing(false);
     }
         return (
-            <div className="new-quiz">
+            <div className={`${classes.new_expense}`}>
                 {!isEditing && (
-                    <button onClick={startEditingHandler} className='add-new-btn'>Add New Question</button>
+                    <button onClick={startEditingHandler}>Add New Question</button>
                 )}
                 {isEditing && (
                     <QuestionForm

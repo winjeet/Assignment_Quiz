@@ -1,0 +1,27 @@
+.new_expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    background-color: #3e3972;
+    color: white;
+    border-radius: 12px ;
+    margin-right: 1rem;
+  }
+  
+  .new_expense button:hover,
+  .new_expense button:active {
+    background-color: #510674;
+    border-color: #510674;
+  }
+  
+  .new_expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new_expense button.alternative:hover,
+  .new_expense button.alternative:active {
+    background-color: #ddb3f8;
+  }
